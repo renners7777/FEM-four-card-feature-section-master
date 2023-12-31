@@ -1,0 +1,74 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 1em 0.5em;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    font-size: middle;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 4em;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+span {
+    color: hsl(234, 12%, 34%);
+    font-weight: bold;
+}
+
+.card {
+    background-color:bisque;
+    border-radius: 8px;
+    padding: 0.3em 0.6em;
+    margin: 0.8em 0.2em;
+}
+
+.card p {
+    color: hsl(229, 6%, 66%);
+}
+
+.card--one {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card--two {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card--three {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card--four {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+img {
+    display: block;
+    margin-left: auto;
+}
+
+footer {
+    margin-top: 1.5em;
+}
+
+.attribution {
+    font-size: 0.8rem; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768) {
+
+}
+
+@media (min-width: 1280) {
+
+}

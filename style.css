@@ -25,7 +25,8 @@ span {
     background-color:bisque;
     border-radius: 8px;
     padding: 0.3em 0.6em;
-    margin: 0.8em 0.2em;
+    margin: 10px auto;
+    width: 250px;
 }
 
 .card p {
@@ -65,10 +66,19 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768) {
-
+@media (min-width: 599px) and (max-width: 898px) {
+    .wrapper--main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
 
-@media (min-width: 1280) {
+@media (min-width: 898px) {
+
+    .wrapper--main {
+        display: flex; 
+        flex-direction: column;   
+    }
 
 }
